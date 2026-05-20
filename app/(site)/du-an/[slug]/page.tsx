@@ -94,7 +94,7 @@ export default async function ProjectDetailPage({ params }: Props) {
           <aside className="mt-10 space-y-6 text-sm leading-relaxed text-white/70 sm:text-base lg:-ml-8">
             <div className="mt-10 space-y-10">
               <article className="space-y-6 text-sm leading-relaxed text-white/70 sm:text-base">
-                {project.body.map((p: Project) => (
+                {project.body.map((p: string) => (
                   <p key={p.slice(0, 24)}>{p}</p>
                 ))}
               </article>
