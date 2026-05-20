@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "../styles/design-tokens.css";
+
+@theme inline {
+  --color-qc-bg-deep: var(--qc-bg-deep);
+  --color-qc-bg-elevated: var(--qc-bg-elevated);
+  --color-qc-surface: var(--qc-surface);
+  --color-qc-surface-muted: var(--qc-surface-muted);
+  --color-qc-gold: var(--qc-gold);
+  --color-qc-gold-deep: var(--qc-gold-deep);
+  --color-qc-ink: var(--qc-ink);
+  --color-qc-ink-muted: var(--qc-ink-muted);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--qc-bg-deep);
+  color: #e8e4dc;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--qc-gold) 35%, transparent);
+  color: var(--qc-bg-deep);
+}

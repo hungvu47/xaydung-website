@@ -1,0 +1,12 @@
+:root {
+  --qc-bg-deep: #0a0a0b;
+  --qc-bg-elevated: #151517;
+  --qc-surface: #fbf9f6;
+  --qc-surface-muted: #f4efe6;
+  --qc-gold: #c6a76e;
+  --qc-gold-deep: #8f6f45;
+  --qc-ink: #1a1918;
+  --qc-ink-muted: #4f4b45;
+  --qc-line: rgba(255, 255, 255, 0.08);
+  --qc-line-dark: rgba(26, 25, 24, 0.18);
+}

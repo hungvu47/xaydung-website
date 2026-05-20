@@ -1,0 +1,400 @@
+[
+  {
+    "slug": "nha-pho-quan-12",
+    "title": "Mẫu thiết kế nội thất nhà phố tại Quận 12",
+    "excerpt": "Giếng trời xuyên sáng, cầu thang khối đặc và khu vực làm việc tại gia tinh gọn.",
+    "categories": [
+      "Nhà phố",
+      "Thiết kế nội thất"
+    ],
+    "type": "nha-tro",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80&sig=b2",
+    "year": "2023",
+    "location": "TP.HCM",
+    "scope": [
+      "Cải tạo",
+      "Thiết kế nội thất"
+    ],
+    "body": [
+      "Tối ưu nhà ống với giải pháp thông tầng và vật liệu tự nhiên mang cảm giác an yên."
+    ]
+  },
+  {
+    "slug": "mau-nha-gac-lung",
+    "title": "Mẫu Nhà Gác Lửng",
+    "excerpt": "- Diện tích: 6x20m2\n - Công năng: 3 Phòng ngủ - Khách - Bếp - Thờ",
+    "categories": [
+      "Gác Lửng",
+      "Trọn Gói"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/as6mstihl9wnecxve3gj.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/pe5pa0ksjegxbmdbiffh.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/ay79dn17dsbgb27vio8s.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158171/dgy2eyihrcq8f4hfwpsn.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158169/pvn0vdqwpv0wzfpeo7ms.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/ttl0lm2kmcxkzil2o8f6.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158169/sqm6t6hppo3r6foldlra.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158171/xmgtn3bamr0cioqf32bf.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158171/g9rqswtxd0e6gmyvxlct.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158171/fwv7hm40ijz9f4wqt6nn.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158171/hzn4xtkcjuonxncxjkdl.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158172/hdg4gqkejnr0xqmwpxnt.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/kf69h1wjz1ykxbdddqa0.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158172/kyimyjjt9msdijct3yvm.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158172/rm2mocg3oojmkpzl2fl8.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/ecyqxwbzoq9hrv0dwfce.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158172/qx8q1oid5qwxjzf4wfbi.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158171/xc6rznpmwyxox19wszy4.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/jleieqymlbmb2t3kky5p.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779158170/as6mstihl9wnecxve3gj.jpg"
+    ],
+    "year": "2022",
+    "location": "Lào Cai",
+    "scope": [
+      "Thiết Kế",
+      "Thi Công Trọn Gói"
+    ],
+    "body": [
+      "- Diện tích: 6x20m2\n - Công năng: 3 Phòng ngủ - Khách - Bếp - Thờ"
+    ]
+  },
+  {
+    "slug": "mau-nha-pho-hien-ai-3-tang",
+    "title": "Mẫu Nhà Phố Hiện Đại 3 Tầng",
+    "excerpt": "Diện tích: 5x23m2\n\n Quy mô: 1 Trệt - 2 Lầu - Mái BTCT",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-3-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779158591/mnitubhastvdg6jbcpjq.jpg",
+    "year": "2025",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi Công Trọn Gói"
+    ],
+    "body": [
+      "Diện tích: 5x23m2",
+      "Quy mô: 1 Trệt - 2 Lầu - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-pho-hien-ai-3-tang-5-6x20",
+    "title": "Nhà Phố Hiện Đại 3 Tầng 5,6x20",
+    "excerpt": "Nhà Phố Hiện Đại 3 Tầng 5,6x20",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-3-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779159057/ektsney5ei3xc0r037xy.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159052/ewloeqibcycqsotvukwa.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159053/jxechnmogxixdgyym4bg.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159052/py9tbp9obegh9tryf8gj.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159052/ifb3vr4f7i6dm35piqen.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159052/jwrshgjhjaxza9hh4vjo.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159052/x4vfjckz7bzzxxnv4zwg.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159051/pehuxkvxdizxiz6oidli.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159051/afwdqvlcrupqndh93sjg.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159051/nvfgfuwduyz6qw6bkgol.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159054/img3fvon5npjawhyly18.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159051/ycsf39dny2ihhlwymgru.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159053/jmwabzd7qgmollzzatif.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159053/ybevehtjp2rsdubkcsez.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159057/ektsney5ei3xc0r037xy.jpg"
+    ],
+    "year": "2026",
+    "location": "Lào Cai",
+    "scope": [
+      "Xây Trọn Gói"
+    ],
+    "body": [
+      "Diện tích: 5,6x20m2",
+      "Quy mô: 1 Trệt - 2 Lầu - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-villa-hien-ai-3-tang-8x20",
+    "title": "Nhà Villa Hiện Đại 3 Tầng 8x20",
+    "excerpt": "Nhà Villa Hiện Đại 3 Tầng 8x20",
+    "categories": [
+      "Villa"
+    ],
+    "type": "nha-3-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779159269/uk09wxahpc4ogbkyvmkl.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/wqbttvvlcpk5oxqvsvzz.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/tw7zhdri8hbqefloytlz.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/vxtyslpxkpxpw8vl8mdc.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/wwd6ypcb8bodroawnajo.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/wt62yvxx3g9lohfr3ivl.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159269/lxdeakpglssngofnp1eg.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/onagph5mdcizwlk8ydol.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/mgxh5ykqflazzxos3ci8.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159269/hofobqmehbpf3pnrxizn.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159268/uguqhiheu4r7jesyofcl.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159269/xryjdknstsngna1aiqte.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159269/b2ljhwwxzoaurir8kfi6.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159269/sgv5qmha1rcup9885mjl.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159269/uk09wxahpc4ogbkyvmkl.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159270/fyta254x0nq0sfthlbyk.jpg"
+    ],
+    "year": "2026",
+    "location": "Lào Cai",
+    "scope": [
+      "Thiết Kế",
+      "Thi Công Trọn Gói"
+    ],
+    "body": [
+      "Diện tích: 8x20m2",
+      "Quy mô: 1 Trệt - 2 Lầu - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-pho-3-tang-5x24",
+    "title": "Nhà Phố 3 Tầng 5x24",
+    "excerpt": "Nhà Phố 3 Tầng 5x24",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-3-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779159540/k8vxcztdjfislxleqqms.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159537/hnyvh80iwlzna3ot36pz.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159538/nnvv9itfdlwyxr5hpefm.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159538/vpywl4zn1dljcgncmcl4.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159539/zxbbawrmilxsety5oe40.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159538/sfmtoqtyuijdrovstwed.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159538/pusach86wjliuysfl7bo.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159539/thet8fdmdhatjrbfmqbn.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159538/ztxdqfjn34dfaapjbix4.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159539/uooz71fdp1ackjb5szst.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159539/bwyrkxt60tfw90nv3vpi.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159539/abisartgmsxtcyjwb4tz.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159540/lkvfaie3mn0ph6qk8w6j.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159539/xlbflfe1btenfa5zpqal.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159540/ekg44xepxtrzodfestxy.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159540/g441oibsjtmkocfa2dfy.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159540/dgaab5x1tilizmx0ukc3.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779159540/k8vxcztdjfislxleqqms.jpg"
+    ],
+    "year": "2026",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi công trọn gói"
+    ],
+    "body": [
+      "Diện tích đất: 5x24m",
+      "Số tầng: 1 Trệt - 2 Tầng + Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-pho-2-tang-1-tum-5x20",
+    "title": "Nhà Phố 2 Tầng 1 Tum - 5x20",
+    "excerpt": "Nhà Phố 2 Tầng 1 Tum - 5x20",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779160097/owpsf7v1oxwws38ahvpd.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160096/n0aswe29c21uwpjl3np4.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160097/n1vxcj8nvohtf7utoldt.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160096/gupik1vpu9fiiczi3zov.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160099/kpzdlhmhkb57wqbrmvuv.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160097/gqznbzcaeixrmram6iyd.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160097/bt2rwyqb4d4ulog6vhlx.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160098/ekxlmslm2negxn8ptgne.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160098/lhpkycefgfqlmxippk13.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160097/xsyht7ivvvi08cznjrmd.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160096/bnrz0qsvy6cxh5zfr2xs.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779160097/owpsf7v1oxwws38ahvpd.jpg"
+    ],
+    "year": "2026",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi Công Trọn Gói"
+    ],
+    "body": [
+      "Diện tích: 5x20m2",
+      "Quy mô: 2 Tầng - 1 Tum - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-pho-2-tang-1-tum-5x22",
+    "title": "Nhà Phố 2 Tầng 1 Tum - 5x22",
+    "excerpt": "Nhà Phố 2 Tầng 1 Tum - 5x22",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779161183/fosyphffg8ssrib9hdxp.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161180/dkxddyj0celaiwz9geaj.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161181/dqjj8ay8mnogixbmf7fe.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161180/vzddrs2y6znbl0fz2tpf.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161181/ldg2vp1mixshbmylxhh9.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161181/aaaeqq7d9rm90uhfxjej.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161183/afdtnxwjaalvmnsfeyax.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161183/azocq6jpjf1fcarqevgt.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161182/o3wigxd6f9bbxsvclbwu.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161183/l5oyzjmo6azvwzxoimkj.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161183/fosyphffg8ssrib9hdxp.jpg"
+    ],
+    "year": "2025",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi công trọn gói"
+    ],
+    "body": [
+      "Diện tích: 5x22m2",
+      "Quy mô: 1 Trệt - 1 Lầu - 1 Tum - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-pho-hien-ai-2-tang-1-tum-5x20",
+    "title": "Nhà Phố Hiện Đại 2 Tầng 1 Tum - 5x20",
+    "excerpt": "Nhà Phố Hiện Đại 2 Tầng 1 Tum - 5x20",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779161396/suck5wk2qh0gqzizx7f5.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161393/qnxshbw80nnrphfvcqb5.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161393/fqeyqkl08uh4wbdecaqm.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161394/ifiep6q0xwkazws8qdwc.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161394/pi8rj8a50r6whnwqen3h.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161393/pepmedsctfxr53wnxefm.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161395/mbqqvcvp7jiu6baaeeqq.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161396/suck5wk2qh0gqzizx7f5.jpg"
+    ],
+    "year": "2025",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi Công Trọn Gói"
+    ],
+    "body": [
+      "Diện tích: 5x20m2\nQuy mô: 2 Tầng - 1 Tum - Mái BTCT\nCông năng: 3 phòng ngủ - khách - bếp"
+    ]
+  },
+  {
+    "slug": "nha-pho-2-tang-5x20",
+    "title": "Nhà Phố 2 Tầng - 5x20",
+    "excerpt": "",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779161584/ppgqpectfr9ojyrurmur.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161577/igrsgavwos0mbeddrcob.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161579/cnvcfevuxnfcff2cvgxo.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161579/qcyaft6665hds3uovsqr.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161580/urr821ti3dgxvqhljgdn.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161578/kcbq0zymx0nr7wn3s1hk.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161579/zsahuyndmvvhbmp0vb3n.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161578/qbdijipmfknw9zpvngxf.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161579/pvtxvvhc8kfsaucnexil.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161579/bgba7ahzsqtiapadwq84.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161584/ppgqpectfr9ojyrurmur.jpg"
+    ],
+    "year": "2025",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi công trọn gói"
+    ],
+    "body": [
+      "Diện tích: 5x20m2",
+      "Quy mô: 1 Trệt - 1 Lầu - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-2-tang-hien-ai",
+    "title": "Nhà 2 Tầng Hiện Đại",
+    "excerpt": "Nhà 2 Tầng Hiện Đại",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779161935/hxfh5gvbjbbbodusoh9c.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161937/uzhx6ckuv03f66bxhy8j.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161934/kcd2fjr1bi749mhuoawf.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161935/b2ilsdvbnigddwe9humv.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161934/llxnm0wrobsfaklxlvmb.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161935/ezxry2zalraoafoixiij.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779161935/hxfh5gvbjbbbodusoh9c.jpg"
+    ],
+    "year": "2026",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi công trọn gói"
+    ],
+    "body": [
+      "Diện tích: 5x20m2",
+      "Quy mô: 2 Tầng - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-pho-2-tang-6x19",
+    "title": "Nhà Phố 2 Tầng - 6x19",
+    "excerpt": "Nhà Phố 2 Tầng - 6x19",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779162124/ygjzqofkpdkymgnvturd.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162123/aut0curg0akamq6amneg.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162122/defpw2sejxlqernn14ev.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162122/dtadhwcqkod7zcfulctk.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162122/nq65ycmim2j71pfp1up0.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162122/bakbpvtoz1kwsngyr7pi.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162122/itqbewh8uzkbxzhcgzz8.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162123/eig0yeetfnbfaj0x7qky.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162122/hozlnqaj25ondhp01ohu.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162124/njh1eqsu0elocj2s00jk.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162124/ygjzqofkpdkymgnvturd.jpg"
+    ],
+    "year": "2026",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi công trọn gói"
+    ],
+    "body": [
+      "Diện tích: 6x19m2",
+      "Quy mô: 1 Trệt - 1 Lầu - Mái BTCT"
+    ]
+  },
+  {
+    "slug": "nha-pho-lao-cai-2-tang-5x16",
+    "title": "Nhà Phố Lào Cai 2 Tầng - 5x16",
+    "excerpt": "Nhà Phố Lào Cai 2 Tầng - 5x16",
+    "categories": [
+      "Nhà Phố"
+    ],
+    "type": "nha-2-tang",
+    "image": "https://res.cloudinary.com/dymstje4v/image/upload/v1779162856/lmhczgrpe5vmgnzu2osc.jpg",
+    "images": [
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162853/dajtxxeb3236s8r2outy.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162852/uqxo7jwoatdjwmurlcj8.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162854/w0rgtep3duanqwfpzbpb.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162855/gfxw6y6mdqbegcfyeatq.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162853/bbgkqkgdowv1azpxl336.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162855/gfwu1ykyekylm5agdpjy.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162854/bbwgo2ztifon51dqeehi.jpg",
+      "https://res.cloudinary.com/dymstje4v/image/upload/v1779162856/lmhczgrpe5vmgnzu2osc.jpg"
+    ],
+    "year": "2026",
+    "location": "Lào Cai",
+    "scope": [
+      "Thi công trọn gói"
+    ],
+    "body": [
+      "Diện tích: 5x16m2",
+      "Quy mô: 2 Tầng - Mái Tôn"
+    ]
+  }
+]
