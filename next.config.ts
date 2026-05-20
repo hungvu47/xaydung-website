@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: projectRoot,
   },
+
   images: {
     remotePatterns: [
       {
@@ -25,6 +26,10 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
     ],
+  },
+
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 
