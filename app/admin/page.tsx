@@ -23,6 +23,12 @@ export default function AdminProjectsPage() {
   const [uploading, setUploading] = useState(false);
 
   const [projects, setProjects] = useState<Project[]>([]);
+  const [page, setPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+
+  const [search, setSearch] = useState("");
+
+  const [typeFilter, setTypeFilter] = useState("");
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -49,17 +55,84 @@ export default function AdminProjectsPage() {
     });
   }, []);
 
+  // const loadProjects = useCallback(async () => {
+  //   setError(null);
+
+  //   try {
+  //     const r = await fetch("/api/admin", {
+  //       headers: authHeaders(),
+  //     });
+
+  //     if (!r.ok) {
+  //       throw new Error(`HTTP ${r.status}`);
+  //     }
+
+  //     const data = await r.json();
+
+  //     console.log("RAW API:", data);
+
+  //     if (!Array.isArray(data)) {
+  //       throw new Error("projects is not array");
+  //     }
+
+  //     setProjects(data);
+
+  //   } catch (e) {
+  //     console.error(e);
+
+  //     setError(
+  //       e instanceof Error
+  //         ? e.message
+  //         : "Không tải được danh sách."
+  //     );
+  //   }
+  // }, []);
+
   const loadProjects = useCallback(async () => {
     setError(null);
+
     try {
-      const r = await fetch("/api/projects");
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const data = (await r.json()) as Project[];
-      setProjects(Array.isArray(data) ? data : []);
+      const params = new URLSearchParams({
+        page: String(page),
+        limit: "20",
+      });
+
+      if (search) {
+        params.append("search", search);
+      }
+
+      if (typeFilter) {
+        params.append("type", typeFilter);
+      }
+
+      const r = await fetch(
+        `/api/admin/projects?${params.toString()}`,
+        {
+          headers: authHeaders(),
+        }
+      );
+
+      if (!r.ok) {
+        throw new Error(`HTTP ${r.status}`);
+      }
+
+      const data = await r.json();
+
+
+      setProjects(data.projects || []);
+
+      setTotalPages(data.totalPages || 1);
+
     } catch (e) {
-      setError(e instanceof Error ? e.message : "Không tải được danh sách.");
+      console.error(e);
+
+      setError(
+        e instanceof Error
+          ? e.message
+          : "Không tải được danh sách."
+      );
     }
-  }, []);
+  }, [page, search, typeFilter]);
 
   useEffect(() => {
     if (!unlocked) return;
@@ -82,6 +155,7 @@ export default function AdminProjectsPage() {
     setBodyText("");
     setFiles([]);
     setPreviewUrls([]);
+    setThumbnailIndex(0);
   };
 
   const toPayload = useMemo(
@@ -139,7 +213,12 @@ export default function AdminProjectsPage() {
     setImage(p.image);
     setYear(p.year);
     setLocation(p.location);
-    setPreviewUrls(p.images || [p.image]);
+    // setPreviewUrls(p.images || [p.image]);
+    setPreviewUrls(
+      Array.isArray(p.images) && p.images.length > 0
+        ? p.images
+        : [p.image]
+    );
     setScopeCsv(p.scope.join(", "));
     setBodyText(p.body.join("\n\n"));
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -318,37 +397,70 @@ export default function AdminProjectsPage() {
 
           <label className="text-sm">
             <span className="font-medium">Ảnh (chọn nhiều)</span>
-            <input
-              type="file"
-              accept="image/*"
-              multiple
-              className="mt-1 block w-full text-sm"
-              onChange={(e) => {
-                const selected = e.target.files ? Array.from(e.target.files) : [];
-                setFiles(selected);
+            <label className="mt-1 flex cursor-pointer items-center justify-center rounded-lg border border-dashed border-zinc-300 bg-zinc-50 px-4 py-6 text-sm transition hover:border-zinc-400 hover:bg-zinc-100">
+              <div className="text-center">
+                <p className="font-medium text-zinc-700">
+                  Chọn ảnh dự án
+                </p>
 
-                const previews = selected.map((file) => URL.createObjectURL(file));
-                setPreviewUrls(previews);
-              }}
-            />
+                <p className="mt-1 text-xs text-zinc-500">
+                  PNG, JPG, WEBP • Chọn nhiều ảnh
+                </p>
+
+                {files.length > 0 && (
+                  <p className="mt-2 text-xs text-blue-600">
+                    Đã chọn {files.length} ảnh
+                  </p>
+                )}
+              </div>
+
+              <input
+                type="file"
+                accept="image/*"
+                multiple
+                className="hidden"
+                onChange={(e) => {
+                  const selected = e.target.files
+                    ? Array.from(e.target.files)
+                    : [];
+
+                  setFiles(selected);
+
+                  const previews = selected.map((file) =>
+                    URL.createObjectURL(file)
+                  );
+
+                  setPreviewUrls(previews);
+
+                  setThumbnailIndex(0);
+                }}
+              />
+            </label>
 
             {previewUrls.length > 0 && (
-              <div className="grid grid-cols-3 gap-2 mt-2">
+              <div className="mt-2 grid grid-cols-3 gap-2">
                 {previewUrls.map((url, i) => (
-                  <div
+                  <button
                     key={i}
+                    type="button"
                     onClick={() => setThumbnailIndex(i)}
-                    className={`relative cursor-pointer border-2 rounded ${thumbnailIndex === i ? "border-blue-500" : "border-transparent"
+                    className={`relative overflow-hidden rounded border-2 cursor-pointer transition ${thumbnailIndex === i
+                      ? "border-blue-500"
+                      : "border-transparent hover:border-zinc-300"
                       }`}
                   >
-                    <img src={url} className="w-full h-24 object-cover rounded" />
+                    <img
+                      src={url}
+                      alt=""
+                      className="h-24 w-full object-cover"
+                    />
 
                     {thumbnailIndex === i && (
-                      <span className="absolute top-1 left-1 text-xs bg-blue-500 text-white px-1 rounded">
+                      <span className="absolute left-1 top-1 rounded bg-blue-500 px-1 text-xs text-white">
                         Ảnh đại diện
                       </span>
                     )}
-                  </div>
+                  </button>
                 ))}
               </div>
             )}
@@ -384,12 +496,12 @@ export default function AdminProjectsPage() {
             <button
               type="submit"
               disabled={uploading}
-              className="rounded bg-zinc-900 px-4 py-2 text-sm text-white disabled:opacity-50"
+              className="cursor-pointer rounded bg-zinc-900 px-4 py-2 text-sm text-white disabled:opacity-50"
             >
               {uploading ? "Đang upload..." : editingSlug ? "Lưu thay đổi" : "Thêm mới"}
             </button>
             {editingSlug ? (
-              <button type="button" className="rounded border border-zinc-300 px-4 py-2 text-sm" onClick={resetForm}>
+              <button type="button" className="cursor-pointer rounded border border-zinc-300 px-4 py-2 text-sm" onClick={resetForm}>
                 Huỷ sửa
               </button>
             ) : null}
@@ -398,26 +510,76 @@ export default function AdminProjectsPage() {
 
         <section className="rounded border border-zinc-200 bg-white p-6 shadow-sm">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">Danh sách</h2>
+          <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+            <input
+              type="text"
+              placeholder="Tìm theo tên..."
+              value={search}
+              onChange={(e) => {
+                setPage(1);
+                setSearch(e.target.value);
+              }}
+              className="rounded border border-zinc-300 px-3 py-2 text-sm"
+            />
+
+            <select
+              value={typeFilter}
+              onChange={(e) => {
+                setPage(1);
+                setTypeFilter(e.target.value);
+              }}
+              className="rounded border border-zinc-300 px-3 py-2 text-sm"
+            >
+              <option value="">Tất cả loại</option>
+
+              {PROJECT_TYPES.map((t) => (
+                <option key={t} value={t}>
+                  {PROJECT_TYPE_LABELS[t]}
+                </option>
+              ))}
+            </select>
+          </div>
           <ul className="mt-4 divide-y divide-zinc-200">
-            {projects.map((p) => (
+            {projects.map((p: Project) => (
               <li key={p.slug} className="flex flex-col gap-2 py-4 sm:flex-row sm:items-center sm:justify-between">
                 <div>
                   <p className="font-medium">{p.title}</p>
                   <p className="text-xs text-zinc-500">
-                    {p.slug} · {PROJECT_TYPE_LABELS[p.type]}
+                    {p.slug} · {PROJECT_TYPE_LABELS[p.type as keyof typeof PROJECT_TYPE_LABELS] ?? p.type}
                   </p>
                 </div>
                 <div className="flex gap-2 text-sm">
-                  <button type="button" className="rounded border border-zinc-300 px-3 py-1" onClick={() => startEdit(p)}>
+                  <button type="button" className="cursor-pointer rounded border border-zinc-300 px-3 py-1" onClick={() => startEdit(p)}>
                     Sửa
                   </button>
-                  <button type="button" className="rounded border border-red-200 px-3 py-1 text-red-700" onClick={() => remove(p.slug)}>
+                  <button type="button" className="cursor-pointer rounded border border-red-200 px-3 py-1 text-red-700" onClick={() => remove(p.slug)}>
                     Xoá
                   </button>
                 </div>
               </li>
             ))}
           </ul>
+          <div className="mt-6 flex items-center justify-center gap-2">
+            <button
+              disabled={page <= 1}
+              onClick={() => setPage((p) => p - 1)}
+              className="cursor-pointer rounded border border-zinc-300 px-3 py-1 text-sm disabled:opacity-50"
+            >
+              Trước
+            </button>
+
+            <span className="text-sm">
+              Trang {page} / {totalPages}
+            </span>
+
+            <button
+              disabled={page >= totalPages}
+              onClick={() => setPage((p) => p + 1)}
+              className="cursor-pointer rounded border border-zinc-300 px-3 py-1 text-sm disabled:opacity-50"
+            >
+              Sau
+            </button>
+          </div>
         </section>
       </div>
     </div>

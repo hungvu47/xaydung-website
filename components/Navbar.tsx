@@ -45,9 +45,7 @@ export function Navbar() {
             <span className="font-[family-name:var(--font-display)] text-[20px] text-white">
               {site.name}
             </span>
-            {/* <span className="text-[11px] uppercase tracking-[0.28em] text-white/50">
-              Cải Tạo Đúng Ý - Xây Dựng Đúng Tâm
-            </span> */}
+
           </span>
         </Link>
 
@@ -146,6 +144,7 @@ export function Navbar() {
                     <Link
                       key={c.href}
                       href={c.href}
+                      onClick={() => setOpen(false)}
                       className="block rounded-xl px-6 py-2 text-sm text-white/65"
                     >
                       {c.label}
