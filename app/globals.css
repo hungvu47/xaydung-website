@@ -28,3 +28,9 @@ body {
   background: color-mix(in oklab, var(--qc-gold) 35%, transparent);
   color: var(--qc-bg-deep);
 }
+
+@media (min-width: 768px) {
+  .md\:object-contain {
+    object-fit: contain;
+  }
+}
