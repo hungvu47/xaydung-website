@@ -52,7 +52,7 @@ export function FeaturedProjectsSection() {
     <section id="du-an" className="bg-[color:var(--qc-ink)] py-10 lg:py-10">
       <Container>
         <div className="mb-10 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-          <SectionTitle eyebrow="Portfolio" title="Dự án nổi bật" />
+          <SectionTitle eyebrow="Portfolio" title="Mẫu nhà nổi bật" />
 
           <div className="flex flex-wrap gap-2 lg:justify-end">
             {PROJECT_TAB_OPTIONS.map((opt) => {

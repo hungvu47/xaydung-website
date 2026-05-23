@@ -20,7 +20,7 @@ export const mainNav: NavItem[] = [
   { label: "Trang chủ", href: "/" },
   { label: "Giới thiệu", href: "/gioi-thieu" },
   {
-    label: "Dự án",
+    label: "Mẫu nhà đẹp",
     href: "/du-an",
     children: [
       { label: "Nhà cấp 4", href: "/du-an?loai=nha-cap-4" },
